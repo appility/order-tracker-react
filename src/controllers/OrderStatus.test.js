@@ -1,0 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+/* Application files */
+import OrderStatus from './OrderStatus.js';
+
+it('renders without crashing', () => {
+  let props = { 
+    match: {
+      params: {
+        id: 'BT00009'
+      }
+    }
+  }
+  const div = document.createElement('div');
+  ReactDOM.render(<OrderStatus {...props} />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
+

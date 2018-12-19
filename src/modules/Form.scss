@@ -1,0 +1,21 @@
+
+@import './../scss/_common';
+@include foundation-forms;
+
+.form-control {
+	input {
+		min-width: 250px;
+	}
+	select {
+		max-width: 395px;
+	}
+	input[type='password']:focus, 
+	input[type='email']:focus,
+	input[type=text]:focus {
+	  border-color: $brand-blue;
+	}
+/*	&:last-of-type {
+		margin-bottom: 40px;
+	}*/
+}
+

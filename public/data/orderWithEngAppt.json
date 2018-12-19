@@ -1,0 +1,93 @@
+{  
+   "isSuccess":true,
+   "code":600,
+   "errorMessage":"",
+   "result":{  
+      "OrderMetaInfo":{  
+         "OrderRef":"BTDQK912",
+         "OrderDescription":"BT Business Broadband & BT Business phone line related order",
+         "OrderStatus":"In Progress",
+         "OrderPlacedDate":"14 Dec 2018",
+         "OrderProductsCount":2,
+         "AuthLevel":2,
+         "IsCONFOrder":false,
+         "CurrentPage":1,
+         "IsStrategic":true
+      },
+      "Products":[  
+         {  
+            "ProductIcon":"broadbandIcon",
+            "ProductName":"BT Business Broadband",
+            "ProductDescription":"Provision of BT Business Broadband",
+            "BillingAddress":"",
+            "InstallationAddress":"BT Bui$%^lding#|*, AB10 1AU",
+            "SiteContact":{  
+               "Title":"Mr",
+               "FirstName":"Ramesh",
+               "LastName":"Wala",
+               "WorkPhone":"0100954123",
+               "HomePhone":"",
+               "Email":"mohanwala@bt.com"
+            },
+            "OneOffPrice":30.0,
+            "MonthlyPrice":15.0,
+            "PercentageCompletion":0,
+            "OrderStatusLongDescription":"We're doing our final checks. We'll be in touch if necessary.",
+            "Status":"In Progress",
+            "ExpectedDispatchDate":null,
+            "EngineeringAppointmentDate":null,
+            "EngineeringAppointmentSlot":"",
+            "OrderItemReference":"BTDQK9121-2",
+            "ProductType":3,
+            "IsDelayedOrder":false,
+            "IsPreAppointment":0,
+            "AuthLevel":2,
+            "isCeaseOrCancelled":false,
+            "IsBundleProduct":false,
+            "OrderKey":"BTDQK912",
+            "BundleContractTerm":"24 month",
+            "ShouldShowAddToCalendar":false,
+            "InstallType":"N",
+            "ProductDuedate": "25 Dec 2018"
+         },
+         {  
+            "ProductIcon":"phoneIcon",
+            "ProductName":"BT Business Phone line",
+            "ProductDescription":"Provision of BT Business Phone line",
+            "BillingAddress":"",
+            "InstallationAddress":"BT Bui$%^lding#|*, AB10 1AU",
+            "SiteContact":{  
+               "Title":"Mr",
+               "FirstName":"Ramesh",
+               "LastName":"Wala",
+               "WorkPhone":"0100954123",
+               "HomePhone":"",
+               "Email":"mohanwala@bt.com"
+            },
+            "OneOffPrice":120.0,
+            "MonthlyPrice":21.2,
+            "PercentageCompletion":0,
+            "OrderStatusLongDescription":"We're doing our final checks. We'll be in touch if necessary.",
+            "Status":"In Progress",
+            "ExpectedDispatchDate":null,
+            "EngineeringAppointmentDate":"2016-12-14T08:00:00Z",
+            "EngineeringAppointmentSlot":"(8am - 1pm)",
+            "OrderItemReference":"BTDQK9121-10",
+            "ProductType":1,
+            "IsDelayedOrder":false,
+            "IsPreAppointment":0,
+            "AuthLevel":2,
+            "isCeaseOrCancelled":false,
+            "IsBundleProduct":false,
+            "OrderKey":"BTDQK912",
+            "BundleContractTerm":"24 month",
+            "ShouldShowAddToCalendar":false
+         }
+      ],
+      "AuthLevel":2,
+      "IsBTB":true,
+      "IsDelayedOrder":false,
+      "IsPreAppointment":0,
+      "IsPreAppointmentIndex":0
+   }
+}

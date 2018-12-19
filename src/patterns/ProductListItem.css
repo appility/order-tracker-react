@@ -1,0 +1,97 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.productItem {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-width: 1px 0px 0px 0px;
+  padding: 30px 0px; }
+  @media print, screen and (min-width: 40em) {
+    .productItem {
+      display: block; } }
+  .productItem__Cell {
+    width: 100%; }
+    .productItem__Cell p:last-of-type {
+      margin-bottom: 10px; }
+  .productItem__Group_B {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    width: 100%; }
+    .productItem__Group_B .productItem__Cell {
+      width: 100%; }
+    .productItem__Group_B .productItem__Cell:nth-of-type(1) {
+      text-align: right;
+      order: 2; }
+    .productItem__Group_B .productItem__Cell:nth-of-type(2) {
+      order: 3;
+      text-align: right; }
+    .productItem__Group_B .productItem__Cell:nth-of-type(3) {
+      order: 1; }
+  @media print, screen and (min-width: 40em) {
+    .productItem__Group_A .productItem__Cell:nth-of-type(3) {
+      width: 50%; }
+    .productItem__Group_B {
+      flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+      align-content: flex-start;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      margin-top: -92px; }
+      .productItem__Group_B .productItem__Cell {
+        width: auto; }
+      .productItem__Group_B .productItem__Cell:nth-of-type(1) {
+        order: 1;
+        flex: 0 1 auto;
+        text-align: right;
+        width: 22%; }
+      .productItem__Group_B .productItem__Cell:nth-of-type(2) {
+        order: 2;
+        flex: 0 1 auto;
+        text-align: right;
+        width: 22%;
+        padding-bottom: 12px; }
+      .productItem__Group_B .productItem__Cell:nth-of-type(3) {
+        order: 3;
+        flex-basis: 100%; } }
+
+@media print, screen and (min-width: 40em) and (min-width: 64em) {
+  .productItem__Group_A {
+    width: 60%;
+    position: relative; }
+    .productItem__Group_A .productItem__Cell:nth-of-type(2) {
+      width: auto;
+      display: inline-block; }
+    .productItem__Group_A .productItem__Cell:nth-of-type(2) {
+      width: auto;
+      display: inline-block; }
+    .productItem__Group_A .productItem__Cell:nth-of-type(3) {
+      width: 48%;
+      max-width: 350px;
+      position: absolute;
+      top: 0;
+      right: 0; }
+  .productItem__Group_B {
+    margin-top: -62px; } }

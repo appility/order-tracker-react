@@ -1,0 +1,59 @@
+
+/*
+
+Lists
+
+*/
+
+ul.margin-bottom-medium-0:last-of-type {
+  @include breakpoint(medium) {
+    margin-bottom: 0;
+  }
+}
+
+ul.inline {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  li {
+    float: left;
+    margin-right: 40px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  a {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem;
+  }
+  .badge + a {
+    position: relative;
+    bottom: 3px;
+  }
+}
+
+/*
+
+Feature list
+
+*/
+
+ul.features {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  li {
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid $very-light-gray;
+    &:first-child {
+      border-bottom: 2px solid $red;
+    }
+    &:last-child {
+      border-top: 2px solid $off-black;
+      border-bottom: none;
+    }
+  }
+}

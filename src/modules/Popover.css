@@ -1,0 +1,124 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+/*
+
+  Popover
+
+  Usage: Typically triggered by information icons 
+    and error messages attached to fields
+
+*/
+.popover {
+  display: block;
+  position: absolute;
+  background: #eeeeee;
+  left: 0;
+  right: 0;
+  bottom: calc(100% + 10px);
+  min-width: 290px; }
+  .popover:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 112px;
+    bottom: -20px;
+    border: 10px solid;
+    -webkit-transform: rotate(360deg);
+    border-color: #eeeeee transparent transparent transparent; }
+  .popover.flush {
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: calc(100% + 5px); }
+    .popover.flush:before {
+      border-color: #eeeeee transparent transparent transparent;
+      left: 112px;
+      bottom: -20px; }
+  .popover.top {
+    left: -8px;
+    bottom: 30px; }
+    .popover.top:before {
+      border-color: #eeeeee transparent transparent transparent;
+      left: 10px;
+      bottom: -20px; }
+  .popover.right {
+    min-width: 290px;
+    left: 30px;
+    top: calc(10px - 100%); }
+    .popover.right:before {
+      border-color: transparent #eeeeee transparent transparent;
+      left: -20px;
+      top: 46%;
+      top: calc(50% - 10px); }
+  .popover.bottom {
+    left: 0px;
+    top: 0px; }
+    .popover.bottom:before {
+      border-color: transparent transparent #eeeeee;
+      left: 30px;
+      top: -20px; }
+    .popover.bottom + .help-text {
+      margin-top: auto; }
+  .popover-withicon .popover__body {
+    display: inline-block; }
+  .popover__body {
+    display: block;
+    padding: 10px 30px 10px 10px; }
+    @media print, screen and (min-width: 40em) {
+      .popover__body {
+        padding: 10px 10px 10px 10px; } }
+  .popover__icon {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .popover__title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0px; }
+  .popover__text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0px; }
+  .popover__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    cursor: pointer; }
+    .popover__close:hover {
+      opacity: 0.7;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+      filter: alpha(opacity=70); }
+  .popover p:last-of-type {
+    margin-bottom: 0px; }
+
+/* 
+loop through colours again and change before background
+*/
+/* USE CASE: ERROR */
+.error {
+  color: #fefefe; }
+  .error .popover-error {
+    position: relative;
+    top: -10px;
+    background: #E60014;
+    width: 100%; }
+    @media print, screen and (min-width: 40em) {
+      .error .popover-error {
+        width: auto; } }
+    .error .popover-error:before {
+      border-color: transparent transparent #E60014; }

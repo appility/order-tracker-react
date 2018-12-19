@@ -1,0 +1,147 @@
+@include foundation-float-classes;
+@import '_common';
+@import '_lists';
+@import '_typography';
+@import '_atomic';
+
+/*
+  If it can't be changed through the _settings file, then add it here 
+*/
+
+html {
+  height: 100%;
+}
+
+/*
+  SVG 
+*/
+svg {
+  display: block;
+}
+
+address {
+  font-variant: normal;
+  font-style: normal;
+}
+
+/*
+
+C'est une pipe
+
+*/
+
+.pipe {
+  padding: 0px 8px 0px 6px;
+}
+
+
+/*
+
+Useful for positioning off-screen content
+
+*/
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/*
+
+Pricing text block
+*/
+.price {
+  display: inline-block;
+  min-width: 70px;
+  text-align: right;
+  padding-right: 8px;
+}
+.price-text {
+  display: inline-block;
+  min-width: 70px;
+}
+
+
+/*
+
+Background colour helpers
+
+*/
+
+@each $name, $color in $label-palette {
+  .bg-#{$name} {
+    background: $color;
+  }
+  .text-#{$name} {
+    color: $color;
+  }
+}
+
+
+
+/*
+ * Hide only visually, but have it available for screenreaders
+ */
+
+.visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard
+ */
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+a[role="button"],
+.button:focus {
+  outline: 3px solid #ffbf47;
+}
+
+/* Hard "outline" with box-shadow: */
+a:focus,
+.button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px $brand-blue;
+}
+
+hr.dark {
+  border: 1px solid $off-black;
+}
+
+/*
+
+Skip to links
+
+*/
+.skip-to-link {
+  white-space: nowrap;
+  display: block;
+  padding: 0.375rem;
+  position: absolute;
+  top: -1000px;
+  left: 0;
+  background-color: #edf0f0;
+  z-index: 210;
+  &:focus {
+    top:0;
+    left:0
+  }
+}
+

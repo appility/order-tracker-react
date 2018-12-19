@@ -1,0 +1,238 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 5px; }
+  thead,
+  tbody,
+  tfoot {
+    border: 0;
+    background-color: #fefefe; }
+  caption {
+    padding: 0.625rem 0;
+    font-weight: 600; }
+  thead {
+    background: #f8f8f8;
+    color: #0a0a0a; }
+  tfoot {
+    background: #f1f1f1;
+    color: #0a0a0a; }
+  thead tr,
+  tfoot tr {
+    background: transparent; }
+  thead th,
+  thead td,
+  tfoot th,
+  tfoot td {
+    padding: 0.625rem 0;
+    font-weight: 600;
+    text-align: left; }
+  tbody th,
+  tbody td {
+    padding: 0.625rem 0; }
+  tbody tr {
+    border-bottom: 0;
+    border-bottom: 0;
+    background-color: #fefefe; }
+  table.striped tbody tr:nth-child(odd) {
+    background-color: #f1f1f1; }
+
+@media screen and (max-width: 39.9375em) {
+  table.stack thead {
+    display: none; }
+  table.stack tfoot {
+    display: none; }
+  table.stack tr,
+  table.stack th,
+  table.stack td {
+    display: block; }
+  table.stack td {
+    border-top: 0; } }
+
+table.scroll {
+  display: block;
+  width: 100%;
+  overflow-x: auto; }
+
+table.hover thead tr:hover {
+  background-color: #f3f3f3; }
+
+table.hover tfoot tr:hover {
+  background-color: #ececec; }
+
+table.hover tbody tr:hover {
+  background-color: #f9f9f9; }
+
+table.hover.striped tr:nth-of-type(odd):hover {
+  background-color: #ececec; }
+
+.table-scroll {
+  overflow-x: auto; }
+  .table-scroll table {
+    width: auto; }
+
+/* Tweak it */
+table thead {
+  background-color: #ffffff; }
+
+table th, table td {
+  vertical-align: top; }
+
+table.unstriped tbody tr {
+  border-bottom: 0;
+  background-color: #fefefe; }
+
+/* Stacked table */
+table.stack {
+  margin-bottom: 3.75rem; }
+  table.stack tbody td:first-child {
+    /*padding: 30px 0px 0px 0px;*/ }
+    @media print, screen and (min-width: 40em) {
+      table.stack tbody td:first-child {
+        padding: 30px 0px 30px 0px; } }
+  @media print, screen and (min-width: 40em) {
+    table.stack tbody td {
+      padding: 30px 0px 30px 0px; } }
+  @media screen and (max-width: 47.9375em) {
+    table.stack tfoot {
+      display: block; }
+      table.stack tfoot td {
+        display: table-cell;
+        padding: 20px 0px 15px 20px; }
+        table.stack tfoot td.empty {
+          display: none; } }
+
+table.stack td h3:first-child,
+table.stack td p:first-child {
+  margin-top: 0; }
+
+table.stack td h3:last-child,
+table.stack td p:last-child,
+table.stack td ul:last-child {
+  margin-bottom: 0px; }
+
+/*
+
+  Match 12-column grid in table cells
+
+*/
+@media print, screen and (min-width: 40em) {
+  table.stack th.two,
+  table.stack td.two {
+    width: 16.66667%; } }
+
+@media print, screen and (min-width: 40em) {
+  table.stack th.three,
+  table.stack td.three {
+    width: 25%; } }
+
+@media print, screen and (min-width: 40em) {
+  table.stack th.four,
+  table.stack td.four {
+    width: 33.33333%; } }
+
+@media print, screen and (min-width: 40em) {
+  table.stack th.five,
+  table.stack td.five {
+    width: 41.66667%; } }
+
+@media print, screen and (min-width: 40em) {
+  table.stack th.six,
+  table.stack td.six {
+    width: 50%; } }
+
+/*
+  
+  Lined table
+
+*/
+table.lined thead {
+  background: white; }
+
+table.lined thead th {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.18182;
+  color: #333333; }
+  @media print, screen and (min-width: 40em) {
+    table.lined thead th {
+      font-size: 14px; } }
+
+table.lined tbody tr {
+  border-top: 1px solid #DDDDDD; }
+  @media print, screen and (min-width: 40em) {
+    table.lined tbody tr {
+      border-top: none; } }
+  @media print, screen and (min-width: 40em) {
+    table.lined tbody tr td {
+      border-top: 1px solid #DDDDDD; } }
+
+table.lined tfoot {
+  background: #eeeeee; }
+
+table.padded tbody td, table.padded tbody th {
+  padding: 6px 0px 6px 0px; }
+  @media print, screen and (min-width: 40em) {
+    table.padded tbody td, table.padded tbody th {
+      padding: 18px 10px; } }
+
+/* Variations */
+table.border-top {
+  border-top: 1px solid #DDDDDD; }
+
+@media print, screen and (min-width: 40em) {
+  table.border-top-none-medium {
+    border-top: none; } }
+
+table.border-bottom {
+  border-bottom: 1px solid #333333; }
+
+/*
+  
+  Minimal
+
+ */
+table.minimal thead th {
+  border-bottom: 1px solid #dddddd; }
+
+table.minimal tbody td {
+  border-top: none;
+  padding: 0 0 0.1875rem 0; }
+
+table.minimal tbody tr:first-child td {
+  padding-top: 1.25rem; }
+
+table.minimal tbody td:first-child {
+  font-weight: 600; }
+
+table.minimal tbody tr:last-child td {
+  padding-bottom: 1.25rem; }
+
+table.minimal tfoot td, table.minimal tfoot th {
+  font-weight: 500;
+  padding: 1.25rem 0 0 0; }
+  @media print, screen and (min-width: 40em) {
+    table.minimal tfoot td, table.minimal tfoot th {
+      padding: 1.875rem 1.25rem 1.875rem 0; } }
+
+/* Table with price */
+table td .price {
+  margin-bottom: 5px;
+  text-align: right; }
+
+table td .price-text {
+  margin-bottom: 5px;
+  text-align: left; }

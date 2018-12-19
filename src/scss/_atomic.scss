@@ -1,0 +1,122 @@
+@import 'foundation-sites/scss/foundation';
+/*
+
+Atomic helper classes
+
+*/
+
+.bold {
+	font-weight: $global-weight-bold;
+}
+.muted {
+  color: $gray;
+}
+.border-ddd {
+  border: 1px solid $very-light-gray;
+}
+.uppercase {
+  text-transform: uppercase;
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-transform: none;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    text-transform: none;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    text-transform: none;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    text-transform: none;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+.block {
+  display: block !important;
+}
+.block-medium {
+  @include breakpoint(medium) {
+    display: block;
+  } 
+}
+.align-right {
+  text-align: right;
+}
+.align-right-medium {
+	@include breakpoint(medium) {
+		text-align: right;
+	}	
+}
+.align-left {
+  text-align: left;
+}
+.align-left-medium {
+  @include breakpoint(medium) {
+    text-align: left;
+  } 
+}
+.margin-top-0 {
+  margin-top: 0;
+}
+.margin-top-10 {
+  margin-top: rem-calc(10);
+}
+.margin-top-10-medium {
+  @include breakpoint(medium) {
+    margin-top: rem-calc(10);
+  }
+}
+.margin-top-20 {
+  margin-top: rem-calc(20);
+}
+.padding-top-29-medium {
+  @include breakpoint(medium) {
+    padding-top: rem-calc(29);
+  }
+}
+.margin-top-30 {
+  margin-top: rem-calc(30);
+}
+.margin-top-40 {
+  margin-top: rem-calc(40);
+}
+.margin-top-60 {
+  margin-top: rem-calc(60);
+}
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+.margin-bottom-0-medium {
+  @include breakpoint(medium) {
+    margin-bottom: 0;
+  }
+}
+.margin-bottom-10 {
+  margin-bottom: rem-calc(10);
+}
+.margin-bottom-20 {
+  margin-bottom: rem-calc(20);
+}
+.margin-bottom-30 {
+  margin-bottom: rem-calc(30);
+}
+.margin-right-10 {
+  margin-bottom: rem-calc(10);
+}
+.margin-right-10 {
+  margin-right: rem-calc(10);
+}
+.bottom-5 {
+	bottom: 5px !important;
+}
+.fixChildToBottom-large {
+	@media screen and (min-width: 960px) {
+		position: relative;
+		& > :first-child {
+			position: absolute; 
+			bottom: 0;
+		}
+  }
+}

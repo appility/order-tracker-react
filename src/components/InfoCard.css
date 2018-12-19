@@ -1,0 +1,41 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.infoCard {
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  overflow: hidden; }
+  @media print, screen and (min-width: 40em) {
+    .infoCard {
+      display: inline-block; } }
+  .infoCard_thumbnail, .infoCard_content {
+    display: table-cell;
+    width: 50%;
+    min-height: 396px;
+    text-align: center;
+    vertical-align: middle; }
+    @media print, screen and (min-width: 40em) {
+      .infoCard_thumbnail, .infoCard_content {
+        display: inline-block; } }
+  .infoCard_thumbnail {
+    display: table-footer-group; }
+    @media print, screen and (min-width: 40em) {
+      .infoCard_thumbnail {
+        display: inline-block; } }
+  .infoCard_content {
+    display: table-row-group; }
+    @media print, screen and (min-width: 40em) {
+      .infoCard_content {
+        display: inline-block; } }

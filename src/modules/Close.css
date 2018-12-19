@@ -1,0 +1,22 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.close {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
+  background-color: #6400AA; }

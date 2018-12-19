@@ -1,0 +1,23 @@
+
+@import './../scss/_common';
+@include foundation-card;
+
+.card {
+  @each $name, $color in $label-palette {
+    &.#{$name} {
+      background: $color;
+      color: return-text-color($color);
+      a {
+        color: return-text-color($color);
+      }
+      &:before {
+        border-color: transparent transparent $color;
+      }
+    }
+  }
+  .card-section p:first-child,
+  .card-section .button
+  {
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,86 @@
+/*
+
+Badge
+
+*/
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.badge {
+  display: inline-block;
+  min-width: 2.1em;
+  padding: 0.3em;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  text-align: center;
+  background: #6400AA;
+  color: #fefefe; }
+  .badge.primary {
+    background: #6400AA;
+    color: #fefefe; }
+  .badge.purchase {
+    background: #E60050;
+    color: #fefefe; }
+  .badge.secondary {
+    background: #f8f4fc;
+    color: #0a0a0a; }
+  .badge.success {
+    background: #008A00;
+    color: #fefefe; }
+  .badge.warning {
+    background: #FFDC00;
+    color: #0a0a0a; }
+  .badge.alert {
+    background: #E60014;
+    color: #fefefe; }
+  .badge.neutral {
+    background: #666666;
+    color: #fefefe; }
+  .badge.information {
+    background: #FFDC00;
+    color: #0a0a0a; }
+  .badge.white {
+    background: #ffffff;
+    color: #0a0a0a; }
+  .badge.off-black {
+    background: #333333;
+    color: #fefefe; }
+  .badge.black {
+    background: #333333;
+    color: #fefefe; }
+  .badge.grey {
+    background: #EEEEEE;
+    color: #0a0a0a; }
+
+.badge {
+  background-color: #0a0a0a;
+  min-width: 1.7em;
+  padding: 0.5em;
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 1em;
+  text-align: center;
+  color: #fefefe;
+  position: relative;
+  top: -3px;
+  height: 30px;
+  width: 30px;
+  font-weight: 600; }
+  .badge.small {
+    min-width: 1.7em;
+    padding: 0.5em;
+    border-radius: 50%;
+    font-size: 1rem;
+    line-height: 1em;
+    height: 20px;
+    width: 20px; }

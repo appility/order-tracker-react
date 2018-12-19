@@ -1,0 +1,90 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.callout {
+  position: relative;
+  margin: 0 0 1rem 0;
+  padding: 0.625rem;
+  border: 0;
+  border-radius: 0;
+  background-color: #fefefe;
+  color: #0a0a0a; }
+  .callout > :first-child {
+    margin-top: 0; }
+  .callout > :last-child {
+    margin-bottom: 0; }
+  .callout.primary {
+    background-color: #6400aa;
+    color: #fefefe; }
+  .callout.purchase {
+    background-color: #e60050;
+    color: #fefefe; }
+  .callout.secondary {
+    background-color: #f8f4fc;
+    color: #0a0a0a; }
+  .callout.success {
+    background-color: #008a00;
+    color: #fefefe; }
+  .callout.warning {
+    background-color: #ffdc00;
+    color: #0a0a0a; }
+  .callout.alert {
+    background-color: #e60014;
+    color: #fefefe; }
+  .callout.neutral {
+    background-color: #666666;
+    color: #fefefe; }
+  .callout.information {
+    background-color: #ffdc00;
+    color: #0a0a0a; }
+  .callout.white {
+    background-color: white;
+    color: #0a0a0a; }
+  .callout.off-black {
+    background-color: #333333;
+    color: #fefefe; }
+  .callout.small {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem; }
+  .callout.large {
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem; }
+
+.callout {
+  background-color: #eeeeee;
+  color: #333333; }
+  .callout.withIcon {
+    padding: 15px 0px 16px 0px; }
+    .callout.withIcon svg:first-of-type {
+      display: inline-block;
+      float: left;
+      position: relative;
+      top: -8px;
+      margin-right: 8px; }
+  .callout p:last-of-type {
+    margin-bottom: 0; }
+
+/* Attached to a table row 
+table tr.withCallout {
+	.callout {  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	}
+}
+*/

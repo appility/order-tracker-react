@@ -1,0 +1,13 @@
+@import './../scss/_common';
+
+.form-control {
+	position: relative;
+  &.error {
+    input,
+    input:active,
+    input:focus {
+      color: $alert-color;
+      border-color: $alert-color;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "/bt-business/v1/carrier/BT2462N4-1/": "/BT2462N4-1-carrier",
+	"/bt-business/v1/orders/G0000001": "/G0000001-group-order",
+	"/bt-business/v1/orders/BT2462N4": "/BT2462N4-Order-InProgress",
+  "/bt-business/v1/orders/BT0000001": "/BT0000001-Order-Pending",
+  "/bt-business/v1/orders/BT0000002": "/BT0000002-Order-Open",
+  "/bt-business/v1/orders/BT0000003": "/BT0000003-Order-InProgress",
+  "/bt-business/v1/orders/BT0000004": "/BT0000004-Order-Cancelled",
+  "/bt-business/v1/orders/BT0000005": "/BT0000005-Order-Delayed",
+  "/bt-business/v1/orders/BT0000006": "/BT0000006-Order-Completed",
+  "/bt-business/v1/orders/BT0000000": "/BT0000006-Order-Not-Found",
+  "/bt-business/v1/orders/BT0000001/:BT0000001-1?postCode=": "/BT0000001:BT0000001-1-Order-Item",
+  "/bt-business/v1/orders/BT0000001/:BT0000001-1?postCode=SE228UG": "/BT0000002:BT0000001-1:SE228UG"
+}

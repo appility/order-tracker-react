@@ -1,0 +1,147 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.label {
+  display: inline-block;
+  padding: 0.1875rem 0.625rem 0.125rem 0.625rem;
+  border-radius: 2px;
+  font-size: 0.875rem;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: default;
+  background: #0a0a0a;
+  color: #fefefe; }
+  .label.primary {
+    background: #6400AA;
+    color: #fefefe; }
+  .label.purchase {
+    background: #E60050;
+    color: #fefefe; }
+  .label.secondary {
+    background: #f8f4fc;
+    color: #0a0a0a; }
+  .label.success {
+    background: #008A00;
+    color: #fefefe; }
+  .label.warning {
+    background: #FFDC00;
+    color: #0a0a0a; }
+  .label.alert {
+    background: #E60014;
+    color: #fefefe; }
+  .label.neutral {
+    background: #666666;
+    color: #fefefe; }
+  .label.information {
+    background: #FFDC00;
+    color: #0a0a0a; }
+  .label.white {
+    background: #ffffff;
+    color: #0a0a0a; }
+  .label.off-black {
+    background: #333333;
+    color: #fefefe; }
+  .label.black {
+    background: #333333;
+    color: #fefefe; }
+  .label.grey {
+    background: #EEEEEE;
+    color: #0a0a0a; }
+  .label.green {
+    background: #008A00;
+    color: #fefefe; }
+
+.label {
+  font-weight: 600;
+  text-align: center;
+  min-width: 105px;
+  position: relative;
+  top: -2px; }
+  .label.primary.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #6400AA;
+    color: #6400AA; }
+  .label.purchase.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #E60050;
+    color: #E60050; }
+  .label.secondary.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #f8f4fc;
+    color: #f8f4fc; }
+  .label.success.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #008A00;
+    color: #008A00; }
+  .label.warning.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #FFDC00;
+    color: #FFDC00; }
+  .label.alert.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #E60014;
+    color: #E60014; }
+  .label.neutral.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #666666;
+    color: #666666; }
+  .label.information.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #FFDC00;
+    color: #FFDC00; }
+  .label.white.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff; }
+  .label.off-black.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #333333;
+    color: #333333; }
+  .label.black.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #333333;
+    color: #333333; }
+  .label.grey.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #EEEEEE;
+    color: #EEEEEE; }
+  .label.green.outline {
+    font-family: 'bt';
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid #008A00;
+    color: #008A00; }

@@ -1,0 +1,151 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+  border: 0px;
+  border-radius: 10px;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a; }
+  .card > :last-child {
+    margin-bottom: 0; }
+
+.card-divider {
+  flex: 0 1 auto;
+  display: flex;
+  padding: 30px;
+  background: #eeeeee; }
+  .card-divider > :last-child {
+    margin-bottom: 0; }
+
+.card-section {
+  flex: 1 0 auto;
+  padding: 30px; }
+  .card-section > :last-child {
+    margin-bottom: 0; }
+
+.card-image {
+  min-height: 1px; }
+
+.card.primary {
+  background: #6400AA;
+  color: #ffffff; }
+  .card.primary a {
+    color: #ffffff; }
+  .card.primary:before {
+    border-color: transparent transparent #6400AA; }
+
+.card.purchase {
+  background: #E60050;
+  color: #333333; }
+  .card.purchase a {
+    color: #333333; }
+  .card.purchase:before {
+    border-color: transparent transparent #E60050; }
+
+.card.secondary {
+  background: #f8f4fc;
+  color: #333333; }
+  .card.secondary a {
+    color: #333333; }
+  .card.secondary:before {
+    border-color: transparent transparent #f8f4fc; }
+
+.card.success {
+  background: #008A00;
+  color: #ffffff; }
+  .card.success a {
+    color: #ffffff; }
+  .card.success:before {
+    border-color: transparent transparent #008A00; }
+
+.card.warning {
+  background: #FFDC00;
+  color: #333333; }
+  .card.warning a {
+    color: #333333; }
+  .card.warning:before {
+    border-color: transparent transparent #FFDC00; }
+
+.card.alert {
+  background: #E60014;
+  color: #333333; }
+  .card.alert a {
+    color: #333333; }
+  .card.alert:before {
+    border-color: transparent transparent #E60014; }
+
+.card.neutral {
+  background: #666666;
+  color: #ffffff; }
+  .card.neutral a {
+    color: #ffffff; }
+  .card.neutral:before {
+    border-color: transparent transparent #666666; }
+
+.card.information {
+  background: #FFDC00;
+  color: #333333; }
+  .card.information a {
+    color: #333333; }
+  .card.information:before {
+    border-color: transparent transparent #FFDC00; }
+
+.card.white {
+  background: #ffffff;
+  color: #333333; }
+  .card.white a {
+    color: #333333; }
+  .card.white:before {
+    border-color: transparent transparent #ffffff; }
+
+.card.off-black {
+  background: #333333;
+  color: #ffffff; }
+  .card.off-black a {
+    color: #ffffff; }
+  .card.off-black:before {
+    border-color: transparent transparent #333333; }
+
+.card.black {
+  background: #333333;
+  color: #ffffff; }
+  .card.black a {
+    color: #ffffff; }
+  .card.black:before {
+    border-color: transparent transparent #333333; }
+
+.card.grey {
+  background: #EEEEEE;
+  color: #333333; }
+  .card.grey a {
+    color: #333333; }
+  .card.grey:before {
+    border-color: transparent transparent #EEEEEE; }
+
+.card.green {
+  background: #008A00;
+  color: #ffffff; }
+  .card.green a {
+    color: #ffffff; }
+  .card.green:before {
+    border-color: transparent transparent #008A00; }
+
+.card .card-section p:first-child,
+.card .card-section .button {
+  margin-bottom: 0px; }

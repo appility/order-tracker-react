@@ -1,0 +1,603 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"ba",
+				"background-color	property"
+			],
+			[
+				"back",
+				"background-image	property"
+			],
+			[
+				"margin",
+				"margin-bottom	property"
+			],
+			[
+				"max-",
+				"max-width	property"
+			],
+			[
+				"inline",
+				"inline-block	display"
+			],
+			[
+				"min-",
+				"min-width	property"
+			],
+			[
+				"ar",
+				"ariaDescribedby"
+			],
+			[
+				"marg",
+				"margin-bottom	property"
+			],
+			[
+				"font",
+				"font-weight	property"
+			],
+			[
+				"inli",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/containers/MilestonesList.js",
+			"settings":
+			{
+				"buffer_size": 2433,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1893,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_junk/APIS responses.txt",
+			"settings":
+			{
+				"buffer_size": 1377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 890,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/utils/API.js",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_junk/messages.txt",
+			"settings":
+			{
+				"buffer_size": 191,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dermotbyrne/Workspace/BT/notes.txt",
+			"settings":
+			{
+				"buffer_size": 5514,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 326.0,
+		"selected_items":
+		[
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Install Package Control"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dermotbyrne/Sites/KV/events/water_rats_09-05-2018/index.html",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/containers/MilestonesList.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/AlertCircle.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/utils/API.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/_junk/TESTING.txt",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/package.json",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/server.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/_junk/POLYFILL METHOD.txt",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/_junk/scripts/bits.txt",
+		"/Users/dermotbyrne/Sites/KV/events/css/style.css",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/_junk/APIS responses.txt",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/Calendar.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/common/Config.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/InfoCircle.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/controllers/Orders.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Label.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Table.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Card.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/layouts/Orders.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/MilestonesListView.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/ContactUs.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/utils/FetchJSON.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/containers/OrdersList.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/containers/_Common.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/MilestonesListItem.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/OrdersListItem.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/FormControl.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/ContentLoader.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Button.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Label.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/OrderReferenceForm.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Table.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Select.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/layouts/Order.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/index.html",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Caterpillar.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Caterpillar.test.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Tooltip.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/App.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/index.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/CheckCircle.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/.gitignore",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/config-overrides.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/README.md",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/Chat.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/controllers/Order.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Form.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/controllers/Login.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Popover.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/assets/js/polyfills/array-find.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/ArrowUpLong.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/ScrollToTopRoute.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/scss/_typography.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/node_modules/react-ellipsis-text/lib/components/EllipsisText.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/data/Retrieve_Group_Order_Detail_By_Order_Reference_Number.json",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/scss/_global.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/StickyBackToTop.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Popover.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Badge.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Form.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Filter.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/Filter.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/PopoverWithIcon.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/InfoDisc.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/header.html",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/Info.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Popover.css",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Disc.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/SpeechBubble.css",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/.htaccess",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Button.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/scss/_colors.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/App.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/Stats.txt",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/scss/_settings.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/layouts/Login.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/LoginForm.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/_settings.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/patterns/TrackOrderForm.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/notes.txt",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/Cross.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/data/db.json",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/data/Retrieve_Order_Details_By_Order_Reference_Number.json",
+		"/Users/dermotbyrne/Sites/KV/index.html",
+		"/Users/dermotbyrne/Desktop/index.html",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/data/Retrieve_Bundle_Order_Details_By_Order_ID_And_Item_ID.json",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Card.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Label.css",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/scss/_common.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/public/data/Retrieve_Milestone_Details_For_Given_Order_Item.json",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Switch.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Panel.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Panel.js",
+		"/Users/dermotbyrne/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/_config-overrides.dev.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/scripts/config-overrides.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Ikons/fsdfd.svg",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Switch.css",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/modules/Switch.scss",
+		"/Users/dermotbyrne/Downloads/simple-switch-master/src/sass/SimpleSwitch.scss",
+		"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src/components/Switch.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker/src/assets/fonts/bt.ttf",
+		"/Users/dermotbyrne/Workspace/BT/notes.txt",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/models/comments.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/models/user.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/controllers/comments.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/package.json",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker/src/partials/chat.html",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/controllers/home.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/app.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/tests/fixtures/orders.json",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/middlewares/auth.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/tests/orders.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/middlewares/user.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/controllers/users.js",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker/src/styleguide/partials/help.html",
+		"/Users/dermotbyrne/Workspace/BT/prototype/bt-order-tracker-app/controllers/index.js",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/components/Card2.js",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/layouts/HomeScreen.js",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/components/AudioPlayer.js",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/package.json",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/components/Audio.js",
+		"/Users/dermotbyrne/Workspace/BT/appcolors.txt",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/components/Card.js",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/utilities/Time.js",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/components/Card4.js",
+		"/Users/dermotbyrne/Workspace/BT/Dialer2/app/components/Card3.js",
+		"/Users/dermotbyrne/Workspace/BT/bt-fake-json/db.json"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client/src",
+			"/Users/dermotbyrne/Workspace/BT/prototype/order-tracker-client"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"js",
+			"ellipsis",
+			"      if (text.length <= this.props.length || this.props.length < 0) {\n      if (text.length <= this.props.length || this.props.length < 0) {\nellipsis",
+			"vector-effect",
+			"settime",
+			"Caterpillar",
+			"ContentLoader",
+			"import { FormattedDate }",
+			"ellips",
+			"The indefinite ",
+			"vertical-align-middle",
+			"@include",
+			"Tooltip",
+			"Tootip",
+			"vertical-align-middle",
+			"butt",
+			"Show me the",
+			"button",
+			"already reg",
+			"Go for it",
+			"Disc",
+			"card",
+			"table",
+			"card",
+			"children",
+			"Switch",
+			"Do you agree?",
+			"Panel.js",
+			"Problem with your",
+			"$global-weight-regular",
+			"Total order",
+			"table",
+			"Select an order status",
+			"contact"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/containers/MilestonesList.js",
+					"settings":
+					{
+						"buffer_size": 2433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								664,
+								664
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 260.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 1893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1761,
+								1761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 501.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_junk/APIS responses.txt",
+					"settings":
+					{
+						"buffer_size": 1377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "server.js",
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/utils/API.js",
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								98
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "_junk/messages.txt",
+					"settings":
+					{
+						"buffer_size": 191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/dermotbyrne/Workspace/BT/notes.txt",
+					"settings":
+					{
+						"buffer_size": 5514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								80
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true
+}

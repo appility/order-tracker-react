@@ -1,0 +1,9 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+
+@import '_settings';
+@import '_mixins';
+@import 'foundation-sites/scss/foundation';
+@import 'functions/_return-text-color';

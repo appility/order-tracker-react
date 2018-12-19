@@ -1,0 +1,47 @@
+@import './../scss/_common';
+@include foundation-media-object;
+
+.media-object {
+	margin-bottom: 0px;
+	.media-object-section:first-child {
+  	padding-right: 0;
+  	width: 100%;
+		@include breakpoint(xlarge) {
+			width: 50%;
+		}
+	}
+	.main-section {
+    padding: 20px;
+		@include breakpoint(xlarge) {
+			/*min-width: 500px;*/
+		}
+	}
+&.reverse-stack {
+	flex-wrap: wrap;
+	.media-object-section {
+		order: 2;
+		width: 100%;
+    @include breakpoint(medium) {
+      order: 1;
+      width: 50%;
+    }
+	}
+	.main-section {
+		order: 1;
+		width: 100%;
+    @include breakpoint(medium) {
+      order: 2;
+      width: 50%;
+    }
+	}
+}
+}
+
+
+/*order: 5;
+order: -5; 
+
+/* Global values
+order: inherit;
+order: initial;
+order: unset;*/

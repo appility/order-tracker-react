@@ -1,0 +1,14 @@
+@import './../scss/_common';
+@include foundation-button;
+
+.button {
+  font-weight: 500;
+  &.flush-small {
+	  @include breakpoint(small only) {
+	    width: 100%;
+	    display: block;
+	  }
+	}
+}
+
+

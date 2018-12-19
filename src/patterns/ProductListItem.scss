@@ -1,0 +1,110 @@
+@import './../scss/_common';
+
+.productItem {
+  $p: &;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid $very-light-gray;
+  border-width: 1px 0px 0px 0px;
+  padding: 30px 0px;
+  @include breakpoint(medium) {
+    display: block;
+  }
+  &__Cell {
+    width: 100%;
+    p:last-of-type {
+      margin-bottom: 10px;
+    }
+  }
+  &__Group_B {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    width: 100%;
+    #{$p}__Cell {
+      width: 100%;
+    }
+    #{$p}__Cell:nth-of-type(1) {
+      text-align: right;
+      order: 2;
+    }
+    #{$p}__Cell:nth-of-type(2) {
+      order: 3;
+      text-align: right;
+    }
+    #{$p}__Cell:nth-of-type(3) {
+      order: 1;
+    }
+  }
+  @include breakpoint(medium) {
+    &__Group_A { 
+      #{$p}__Cell:nth-of-type(3) {
+        width: 50%;
+      }
+    }
+    &__Group_B {
+      flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+      justify-content: flex-end;
+      -webkit-align-content: flex-start;
+      -ms-flex-line-pack: start;
+      align-content: flex-start;
+      -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      margin-top: -92px;
+      #{$p}__Cell {
+        width: auto;
+      }
+      #{$p}__Cell:nth-of-type(1) {
+        order: 1;
+        flex: 0 1 auto;
+        text-align: right;
+        width: 22%;
+      }
+      #{$p}__Cell:nth-of-type(2) {
+        order: 2;
+        flex: 0 1 auto;
+        text-align: right;
+        width: 22%;
+        padding-bottom: 12px;
+      }
+      #{$p}__Cell:nth-of-type(3) {
+        order: 3;
+        flex-basis: 100%;
+      }
+    }
+    @include breakpoint(large) {
+      &__Group_A { 
+        width: 60%;
+        position: relative;
+        #{$p}__Cell:nth-of-type(2) {
+          width: auto;
+          display: inline-block;
+        }
+        #{$p}__Cell:nth-of-type(2) {
+          width: auto;
+          display: inline-block;
+        }
+        #{$p}__Cell:nth-of-type(3) {
+          width: 48%;
+          max-width: 350px;
+          position: absolute;
+          top: 0;
+          right:0;
+        }
+      }
+      &__Group_B {
+        margin-top: -62px;
+      }
+    }
+    //
+  }
+}

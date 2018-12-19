@@ -1,0 +1,432 @@
+{
+   "orders-group-order":[
+      {
+         "id":1,
+         "title":"json-server",
+         "author":"typicode"
+      },
+      {
+         "id":2,
+         "title":"json-server",
+         "author":"typicode"
+      },
+      {
+         "id":3,
+         "title":"json-server",
+         "author":"typicode"
+      }
+   ],
+   "BT2462N4-Order-InProgress":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is in progress!",
+            "OrderStatus":"In Progress",
+            "EstimatedCompletionDate":"23 Dec 2030",
+            "OrderPlacedDate":"15 Jun 2018",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000001-Order-Accepted":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is pending!",
+            "OrderStatus":"Accepted",
+            "EstimatedCompletionDate":"23 Dec 2016",
+            "OrderPlacedDate":"15 Sep 2016",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000001-Order-Pending":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is pending!",
+            "OrderStatus":"In Progress",
+            "EstimatedCompletionDate":"23 Dec 2016",
+            "OrderPlacedDate":"15 Sep 2016",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000002-Order-Open":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is open!",
+            "OrderStatus":"In Progress",
+            "EstimatedCompletionDate":"23 Dec 2016",
+            "OrderPlacedDate":"15 Sep 2016",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000003-Order-InProgress":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is in progress!",
+            "OrderStatus":"In Progress",
+            "EstimatedCompletionDate":"23 Dec 2016",
+            "OrderPlacedDate":"15 Sep 2016",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000004-Order-Cancelled":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is in progress!",
+            "OrderStatus":"In Progress",
+            "EstimatedCompletionDate":"23 Dec 2016",
+            "OrderPlacedDate":"15 Sep 2016",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000005-Order-Delayed":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is pending!",
+            "OrderStatus":"In Progress",
+            "EstimatedCompletionDate":"23 Dec 2016",
+            "OrderPlacedDate":"15 Sep 2016",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000006-Order-Completed":{
+      "isSuccess":true,
+      "code":600,
+      "errorMessage":"",
+      "result":{
+         "OrderMetaInfo":{
+            "OrderRef":"BT2462N4",
+            "OrderDescription":"An order that is completed!",
+            "OrderStatus":"Completed",
+            "EstimatedCompletionDate":"23 Dec 2016",
+            "OrderPlacedDate":"15 Sep 2016",
+            "OrderProductsCount":1,
+            "AuthLevel":2,
+            "IsCONFOrder":false,
+            "CurrentPage":1,
+            "IsStrategic":true
+         },
+         "Products":[
+            {
+               "ProductIcon":"phoneIcon",
+               "ProductName":"BT Business Phone line",
+               "ActiveMilestone":"Order Checks",
+               "ProductDescription":"Provision of BT Business Phone line",
+               "ProductDuedate":"23 Dec 2016",
+               "OneOffPrice":120,
+               "MonthlyPrice":21.2,
+               "PercentageCompletion":50,
+               "OrderStatusLongDescription":"We're making some initial checks before we can start processing your order.",
+               "Status":"In Progress",
+               "ExpectedDispatchDate":"0001-01-01T00:00:00Z",
+               "EngineeringAppointmentDate":"2016-12-23T08:30:00Z",
+               "EngineeringAppointmentSlot":"(1pm - 6pm)",
+               "OrderItemReference":"BTDLV9651-1",
+               "ProductType":1,
+               "IsDelayedOrder":false,
+               "IsPreAppointment":0,
+               "AuthLevel":2,
+               "isCeaseOrCancelled":false,
+               "IsBundleProduct":false,
+               "OrderKey":"BTDLV965",
+               "BundleContractTerm":"24 month"
+            }
+         ],
+         "AuthLevel":2,
+         "IsBTB":true,
+         "IsDelayedOrder":false,
+         "IsPreAppointment":0,
+         "IsPreAppointmentIndex":0
+      }
+   },
+   "BT0000007-Order-Ref-Not-Supported":{
+      "isSuccess":false,
+      "code":614,     
+      "errorMessage":"Unsupported Order"
+   },
+   "BT4P28LB-Order-Ref-Not-Found":{
+      "isSuccess":false,
+      "code":607,     
+      "errorMessage":"Order"
+   },
+   "BT0000001:BT0000001-1-Order-Item": {
+
+   }
+}

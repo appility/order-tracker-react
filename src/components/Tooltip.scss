@@ -1,0 +1,9 @@
+@import './../scss/_common';
+
+.tooltip {
+  padding: 0px 4px 0px 4px;
+  display: inline;
+  @include breakpoint(medium) {
+    position: relative
+  }
+}

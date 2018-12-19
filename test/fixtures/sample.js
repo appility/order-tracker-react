@@ -1,0 +1,1 @@
+window.LOADED_SCRIPT = true

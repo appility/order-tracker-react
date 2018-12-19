@@ -1,0 +1,222 @@
+@import './../scss/_common';
+@include foundation-table;
+
+/* Tweak it */
+
+table {
+  thead {
+    background-color: #ffffff;
+  }
+  th, td {
+    vertical-align: top;
+  }
+}
+
+table.unstriped tbody tr {
+  border-bottom: 0;
+  background-color: $white;
+}
+
+
+/* Stacked table */
+
+table.stack {
+  margin-bottom: rem-calc(60);
+  tbody {
+    td:first-child {
+      /*padding: 30px 0px 0px 0px;*/
+      @include breakpoint(medium) {
+        padding: 30px 0px 30px 0px;
+      }
+    }
+    @include breakpoint(medium) {
+      td {
+        padding: 30px 0px 30px 0px;
+      }
+    }
+  }
+  @include breakpoint(medium down) {
+    tfoot {
+      display: block;
+      td {   
+        display: table-cell;
+        padding: 20px 0px 15px 20px;
+        &.empty {
+          display:none;
+        }
+      }
+    }
+  }
+}
+
+table.stack td h3:first-child,
+table.stack td p:first-child
+{
+  margin-top: 0;
+}
+
+table.stack td h3:last-child,
+table.stack td p:last-child,
+table.stack td ul:last-child
+{
+  margin-bottom: 0px;
+}
+
+/*
+
+  Match 12-column grid in table cells
+
+*/
+
+table.stack {
+  th.two,
+  td.two {
+    @include breakpoint(medium) {
+      width: 2/12*100%;
+    }
+  }
+  th.three,
+  td.three {
+    @include breakpoint(medium) {
+      width: 3/12*100%;
+    }
+  }
+  th.four,
+  td.four {
+    @include breakpoint(medium) {
+      width: 4/12*100%;
+    }
+  }
+  th.five,
+  td.five {
+    @include breakpoint(medium) {
+      width: 5/12*100%;
+    }
+  }
+  th.six,
+  td.six {
+    @include breakpoint(medium) {
+      width: 6/12*100%;
+    }
+  }
+}
+
+/*
+  
+  Lined table
+
+*/
+
+table.lined {
+  thead {
+    background: white;
+  }
+  thead th {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.18182;
+    color: #333333;
+    @include breakpoint(medium) {
+      font-size: 14px;
+    }
+  }
+  tbody tr {
+    border-top: 1px solid #DDDDDD;
+    @include breakpoint(medium) {
+      border-top: none;
+    }
+    td {
+      @include breakpoint(medium) {
+        border-top: 1px solid #DDDDDD;
+      }
+    }
+  }
+  tfoot {
+    background: #eeeeee;
+  }
+}
+
+table.padded {
+  tbody {
+    td, th {
+      padding: 6px 0px 6px 0px;
+      @include breakpoint(medium) {
+        padding: 18px 10px
+      }
+    }
+  }
+}
+
+
+/* Variations */
+
+table.border-top {
+  border-top: 1px solid #DDDDDD;
+}
+
+table.border-top-none-medium {
+  @include breakpoint(medium) {
+    border-top: none;
+  }
+}
+
+table.border-bottom {
+  border-bottom: 1px solid $off-black;
+}
+
+
+ /*
+  
+  Minimal
+
+ */
+
+table.minimal {
+  thead th {
+    border-bottom: 1px solid $very-light-gray;
+  }
+  tbody {
+    td {
+      border-top: none;
+      padding: rem-calc(0 0 3 0);
+    }
+    tr:first-child td {
+      padding-top: rem-calc(20)
+    }
+    td:first-child {
+      font-weight: 600;
+    }
+    tr:last-child td {
+      padding-bottom: rem-calc(20)
+    }
+  }
+  tfoot {
+    td, th {
+      font-weight: 500;
+      padding: rem-calc(20 0 0 0);
+      @include breakpoint(medium) {
+        padding: rem-calc(30 20 30 0)
+      } 
+    }     
+  }
+}
+
+
+/* Table with price */
+
+table td {
+  .price {
+    margin-bottom: 5px;
+    text-align: right
+  }
+  .price-text {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+}
+
+
+
+
+
+

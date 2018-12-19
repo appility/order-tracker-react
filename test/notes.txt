@@ -1,0 +1,24 @@
+Notes on testing
+
+Unit tests - 
+
+Jest/Mocha
+.test.js
+
+Coverage
+
+
+Acceptance tests
+
+Kightmare 
+Mocha
+
+
+/acceptance
+
+
+Notes on monitoring:
+
+https://sentry.io/settings/dermotbyrne/btb-order-tracking-client/install/javascript-react/
+
+

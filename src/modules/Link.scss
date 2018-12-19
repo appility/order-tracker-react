@@ -1,0 +1,13 @@
+@import './../scss/_common';
+
+.link {
+  display: inline-block;
+  &.with-icon {
+    svg {
+      display: inline-block;
+      position: relative;
+      top: 2px;
+      margin-right: 9px;
+    }
+  }
+}

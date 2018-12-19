@@ -1,0 +1,79 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.media-object {
+  display: flex;
+  margin-bottom: 1rem;
+  flex-wrap: nowrap; }
+  .media-object img {
+    max-width: none; }
+  @media screen and (max-width: 39.9375em) {
+    .media-object.stack-for-small {
+      flex-wrap: wrap; } }
+  @media screen and (max-width: 39.9375em) {
+    .media-object.stack-for-small .media-object-section {
+      padding: 0;
+      padding-bottom: 1rem;
+      flex-basis: 100%;
+      max-width: 100%; }
+      .media-object.stack-for-small .media-object-section img {
+        width: 100%; } }
+
+.media-object-section {
+  flex: 0 1 auto; }
+  .media-object-section:first-child {
+    padding-right: 1rem; }
+  .media-object-section:last-child:not(:nth-child(2)) {
+    padding-left: 1rem; }
+  .media-object-section > :last-child {
+    margin-bottom: 0; }
+  .media-object-section.main-section {
+    flex: 1 1 0px; }
+
+.media-object {
+  margin-bottom: 0px; }
+  .media-object .media-object-section:first-child {
+    padding-right: 0;
+    width: 100%; }
+    @media screen and (min-width: 75em) {
+      .media-object .media-object-section:first-child {
+        width: 50%; } }
+  .media-object .main-section {
+    padding: 20px; }
+    @media screen and (min-width: 75em) {
+      .media-object .main-section {
+        /*min-width: 500px;*/ } }
+  .media-object.reverse-stack {
+    flex-wrap: wrap; }
+    .media-object.reverse-stack .media-object-section {
+      order: 2;
+      width: 100%; }
+      @media print, screen and (min-width: 40em) {
+        .media-object.reverse-stack .media-object-section {
+          order: 1;
+          width: 50%; } }
+    .media-object.reverse-stack .main-section {
+      order: 1;
+      width: 100%; }
+      @media print, screen and (min-width: 40em) {
+        .media-object.reverse-stack .main-section {
+          order: 2;
+          width: 50%; } }
+
+/*order: 5;
+order: -5; 
+
+/* Global values
+order: inherit;
+order: initial;
+order: unset;*/

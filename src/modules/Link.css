@@ -1,0 +1,20 @@
+/*
+  Import this in each component that needs it
+  Each import below should just contain variables and mixins and shouldn't output anything
+*/
+/* added */
+/* added */
+/*$table-border: 1px solid smart-scale($table-background, $table-color-scale); */
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.4-rc1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+.link {
+  display: inline-block; }
+  .link.with-icon svg {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 9px; }

@@ -1,0 +1,8 @@
+@function return-text-color($color) {
+    @if (lightness($color) > 45) {
+      @return $off-black;
+    }
+    @else {
+      @return $fullwhite;
+    }
+}

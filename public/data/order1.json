@@ -1,0 +1,48 @@
+{
+    "isSuccess": true,
+    "code": 600,
+    "errorMessage": "",
+    "result": {
+        "OrderMetaInfo": {
+            "OrderRef": "BTDRG305",
+            "OrderDescription": "BT Business Phone line related order",
+            "OrderStatus": "In Progress",
+            "OrderPlacedDate": "03 Jan 2017",
+            "OrderProductsCount": 1,
+            "AuthLevel": 2,
+            "IsCONFOrder": false,
+            "CurrentPage": 1,
+            "IsStrategic": true
+        },
+        "Products": [
+            {
+                "ProductIcon": "phoneIcon",
+                "ProductName": "BT Business Phone line",
+                "ProductDescription": "Provision of BT Business Phone line",
+                "OneOffPrice": 120,
+                "MonthlyPrice": 21.2,
+                "PercentageCompletion": 0,
+                "OrderStatusLongDescription": "We're doing our final checks. We'll be in touch if necessary.",
+                "Status": "In Progress",
+                "ExpectedDispatchDate": null,
+                "EngineeringAppointmentDate": "2017-01-20T13:00:00Z",
+                "EngineeringAppointmentSlot": "(1pm - 6pm)",
+                "OrderItemReference": "BTDRG3051-1",
+                "ProductType": 1,
+                "IsDelayedOrder": false,
+                "IsPreAppointment": 0,
+                "AuthLevel": 2,
+                "isCeaseOrCancelled": false,
+                "IsBundleProduct": false,
+                "OrderKey": "BTDRG305",
+                "BundleContractTerm": "24 month",
+                "ShouldShowAddToCalendar": false
+            }
+        ],
+        "AuthLevel": 2,
+        "IsBTB": true,
+        "IsDelayedOrder": false,
+        "IsPreAppointment": 0,
+        "IsPreAppointmentIndex": 0
+    }
+} 

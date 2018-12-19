@@ -1,0 +1,20 @@
+
+@import './../scss/_common';
+@include foundation-label
+
+.label {
+  font-weight: $global-weight-bold;
+  text-align: center;
+  min-width: 105px;
+  position: relative;
+  top: -2px;
+  @each $name, $color in $label-palette {
+    &.#{$name}.outline {
+      font-family: 'bt';
+      font-weight: $global-weight-bold;
+      background: transparent;
+      border: 1px solid $color;
+      color: $color;
+    }
+  }
+};

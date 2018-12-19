@@ -1,0 +1,193 @@
+/*
+  Tweak it
+*/
+
+
+body {
+  font-weight: $global-weight-normal;
+}
+
+/*
+
+  Links 
+
+*/
+
+a {
+  font-weight: $global-weight-regular;
+  &.white {
+    color: $white;
+  }
+}
+
+/*
+
+  Links with icons
+
+*/
+
+a {
+  position: relative;
+  &:after {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 1em;
+    width: 1em;
+    line-height: 1em;
+    position: absolute;
+    right: -32px;
+    top: -2px;
+  }
+  &.plus {
+    &:after {
+      content: "\002B";
+    }
+  }
+  &.minus {
+    &:after {
+      content: "\2212";
+    }
+  }
+  &.text-white {
+    color: white;
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+  &.back {
+    padding-left: 20px;
+    padding-right: 4px;
+    display: inline-block;
+    &:before {
+      content: " ";
+      background: url('/assets/img/icon_sprite.png');
+      background-repeat:no-repeat;
+      background-size: 200%;
+      height: 15px;
+      width: 8px;
+      position: absolute;
+      top: 3px;
+      left: 0px;
+    }
+  }
+}
+
+p {
+  font-weight: 500;
+  margin-bottom: 10px;
+  &:last-of-type {
+    margin-bottom: 20px;
+  }
+}
+
+p.note {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p,
+dl dt,
+dl dd,
+ul li {
+  letter-spacing: 0.25px;
+}
+
+h1,
+.h1 {
+  margin-bottom:20px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 20px;
+  }
+}
+
+h2,
+.h2 {
+  margin-bottom:20px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 20px;
+  }
+}
+
+h3,
+.h2 {
+  margin-bottom:20px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 20px;
+  }
+}
+
+h4,
+.h4 {
+  font-weight: $global-weight-regular;
+  margin-bottom:10px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 10px;
+  }
+}
+
+h5,
+.h5 {
+  font-weight: $global-weight-bold;
+  margin-bottom:20px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 10px;
+  }
+}
+
+h6,
+.h6 {
+  font-weight: $global-weight-regular;
+  margin-bottom: 5px;
+}
+
+/*
+ Immediately following rules
+*/
+
+h1 + hr,
+.h1 + hr,
+h2 + hr,
+.h2 + hr,
+h3 + hr,
+.h3 + hr,
+h4 + hr,
+.h4 + hr {
+ margin-top: 10px;
+}
+
+/*
+
+Definition lists - we do use them
+
+*/
+
+dl {
+  dd {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0
+    }
+  }
+}
+
+
+/* Review these - these can be reflected in _settings file */
+
+p:last-of-type {
+  margin-bottom: 20px;
+}
+
+/* */
+
+.font-weight-light {
+  font-weight: $global-weight-light;
+}
+
+.font-weight-medium {
+  font-weight: $global-weight-medium;
+}
+

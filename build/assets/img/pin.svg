@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="30px" viewBox="0 0 19 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="03OrderStatus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03OrderStatus4_mobile" transform="translate(-140.000000, -1419.000000)">
+            <g id="card2" transform="translate(8.000000, 929.000000)">
+                <g id="map" transform="translate(10.000000, 361.000000)">
+                    <g id="pin" transform="translate(122.000000, 129.000000)">
+                        <g id="Path">
+                            <path d="M9.5,0 C14.738,0 19,4.254 19,9.483 C19,17.05 11.868,26.505 9.5,29.435 C7.132,26.505 0,17.05 0,9.483 C0,4.254 4.262,0 9.5,0" fill="#6400AA"></path>
+                            <path d="M9.5,14.4 C12.278,14.4 14.539,12.157 14.539,9.4 C14.539,6.643 12.278,4.4 9.5,4.4 C6.722,4.4 4.461,6.643 4.461,9.4 C4.461,12.157 6.722,14.4 9.5,14.4" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

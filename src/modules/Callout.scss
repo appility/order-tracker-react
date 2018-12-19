@@ -1,0 +1,32 @@
+@import './../scss/_common';
+@include foundation-callout;
+
+.callout {
+	background-color: $light-gray;
+	color: $off-black;
+	&.withIcon {
+		padding: 15px 0px 16px 0px;
+		svg:first-of-type {
+			display: inline-block;
+			float:left;
+			position: relative;
+    	top: -8px;
+    	margin-right: 8px;
+		}
+	}
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+	
+}
+
+/* Attached to a table row 
+table tr.withCallout {
+	.callout {  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	}
+}
+*/
